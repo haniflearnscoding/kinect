@@ -1,4 +1,4 @@
-# Final Project Log CART 398/IMCA 221
+# Final Project Log 
 
 This will serve as a form of documentation to help itterate on the final project. The repository currently has only a python file with the osc protocol with kinect serving as the input. Will be adding both max patches as well. 
 
@@ -48,7 +48,6 @@ Increase @hiddenlayers to 64 32 16 or larger
 
 
 What happened:
-
 * Depth values in training data likely not varying enough
 * Depth scaled differently than x/y, giving it less influence
 
@@ -58,5 +57,12 @@ Solution:
 * Train with examples at significantly different depths (move closer/farther from Kinect)
 * Ensure synth parameters actually change with depth in training examples
 * Use consistent 0-1 normalization for all inputsProblem: Model semi-working but depth changes don't influence synth, only x/y plane does
+
+![](Screenshot 2025-11-13 at 12.39.26 AM.png)
+
+
+
+
+
 
 
